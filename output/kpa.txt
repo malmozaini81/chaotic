@@ -1,0 +1,33 @@
+Attacks output
+
+----KPA
+C:\Users\x\Desktop\test\server\attacks>kpa --plain1 C:\Users\x\Desktop\test\server\output\natural.bmp --cipher1 C:\Users\x\Desktop\test\server\output\enatural.bmp --plain2 C:\Users\x\Desktop\test\server\output\natural1.bmp --cipher2 C:\Users\x\Desktop\test\server\output\enatural1.bmp
+Recovered bytes: 0.3895%
+Exact recovery: False
+
+C:\Users\x\Desktop\test\server\attacks>kpa --plain1 C:\Users\x\Desktop\test\server\output\medical.bmp --cipher1 C:\Users\x\Desktop\test\server\output\emedical.bmp --plain2 C:\Users\x\Desktop\test\server\output\medical1.bmp --cipher2 C:\Users\x\Desktop\test\server\output\emedical1.bmp
+Recovered bytes: 0.3944%
+Exact recovery: False
+
+C:\Users\x\Desktop\test\server\attacks>kpa --plain1 C:\Users\x\Desktop\test\server\output\control.bmp --cipher1 C:\Users\x\Desktop\test\server\output\econtrol.bmp --plain2 C:\Users\x\Desktop\test\server\output\control1.bmp --cipher2 C:\Users\x\Desktop\test\server\output\econtrol1.bmp
+Recovered bytes: 0.3873%
+Exact recovery: False
+
+C:\Users\x\Desktop\test\server\attacks>  
+
+
+---- CPA
+
+C:\Users\x\Desktop\test\server\attacks>kpa --plain1 C:\Users\x\Desktop\test\server\output\black.bmp --cipher1 C:\Users\x\Desktop\test\server\output\eblack.bmp --plain2 C:\Users\x\Desktop\test\server\output\control.bmp --cipher2 C:\Users\x\Desktop\test\server\output\econtrol.bmp
+Recovered bytes: 0.3925%
+Exact recovery: False
+
+C:\Users\x\Desktop\test\server\attacks>kpa --plain1 C:\Users\x\Desktop\test\server\output\white.bmp --cipher1 C:\Users\x\Desktop\test\server\output\ewhite.bmp --plain2 C:\Users\x\Desktop\test\server\output\control.bmp --cipher2 C:\Users\x\Desktop\test\server\output\econtrol.bmp
+Recovered bytes: 0.3887%
+Exact recovery: False
+
+C:\Users\x\Desktop\test\server\attacks>kpa --plain1 C:\Users\x\Desktop\test\server\output\onewhite.bmp --cipher1 C:\Users\x\Desktop\test\server\output\eonewhite.bmp --plain2 C:\Users\x\Desktop\test\server\output\control.bmp --cipher2 C:\Users\x\Desktop\test\server\output\econtrol.bmp
+Recovered bytes: 0.3946%
+Exact recovery: False
+
+C:\Users\x\Desktop\test\server\attacks>

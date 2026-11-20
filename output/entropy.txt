@@ -1,0 +1,49 @@
+C:\Users\x\Desktop\test\server\evaluate>entropy --original C:\Users\x\Desktop\test\server\output\control.bmp --encrypted C:\Users\x\Desktop\test\server\output\econtrol.bmp  --decrypted C:\Users\x\Desktop\test\server\output\dcontrol.bmp
+Image            Entropy (bits/byte)
+------------------------------------
+Original                    7.772199
+Encrypted                   7.999784
+Decrypted                   7.772199
+Ideal                       8.000000
+
+C:\Users\x\Desktop\test\server\evaluate>entropy --original C:\Users\x\Desktop\test\server\output\control1.bmp --encrypted C:\Users\x\Desktop\test\server\output\econtrol1.bmp  --decrypted C:\Users\x\Desktop\test\server\output\dcontrol1.bmp
+Image            Entropy (bits/byte)
+------------------------------------
+Original                    7.772194
+Encrypted                   7.999766
+Decrypted                   7.772194
+Ideal                       8.000000
+
+C:\Users\x\Desktop\test\server\evaluate>entropy --original C:\Users\x\Desktop\test\server\output\medical.bmp --encrypted C:\Users\x\Desktop\test\server\output\emedical.bmp  --decrypted C:\Users\x\Desktop\test\server\output\dmedical.bmp
+Image            Entropy (bits/byte)
+------------------------------------
+Original                    6.698941
+Encrypted                   7.999873
+Decrypted                   6.698941
+Ideal                       8.000000
+
+C:\Users\x\Desktop\test\server\evaluate>entropy --original C:\Users\x\Desktop\test\server\output\medical1.bmp --encrypted C:\Users\x\Desktop\test\server\output\emedical1.bmp  --decrypted C:\Users\x\Desktop\test\server\output\dmedical1.bmp
+Image            Entropy (bits/byte)
+------------------------------------
+Original                    6.698929
+Encrypted                   7.999878
+Decrypted                   6.698929
+Ideal                       8.000000
+
+C:\Users\x\Desktop\test\server\evaluate>entropy --original C:\Users\x\Desktop\test\server\output\natural.bmp --encrypted C:\Users\x\Desktop\test\server\output\enatural.bmp  --decrypted C:\Users\x\Desktop\test\server\output\dnatural.bmp
+Image            Entropy (bits/byte)
+------------------------------------
+Original                    7.860255
+Encrypted                   7.999946
+Decrypted                   7.860255
+Ideal                       8.000000
+
+C:\Users\x\Desktop\test\server\evaluate>entropy --original C:\Users\x\Desktop\test\server\output\natural1.bmp --encrypted C:\Users\x\Desktop\test\server\output\enatural1.bmp  --decrypted C:\Users\x\Desktop\test\server\output\dnatural1.bmp
+Image            Entropy (bits/byte)
+------------------------------------
+Original                    7.860255
+Encrypted                   7.999948
+Decrypted                   7.860255
+Ideal                       8.000000
+
+C:\Users\x\Desktop\test\server\evaluate>

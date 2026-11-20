@@ -1,0 +1,25 @@
+C:\Users\x\Desktop\test\server\evaluate>ssim --original C:\Users\x\Desktop\test\server\output\control.bmp --encrypted C:\Users\x\Desktop\test\server\output\econtrol.bmp  --decrypted C:\Users\x\Desktop\test\server\output\dcontrol.bmp
+Original vs Encrypted: 0.008419
+Original vs Decrypted: 1.000000
+
+C:\Users\x\Desktop\test\server\evaluate>ssim --original C:\Users\x\Desktop\test\server\output\control1.bmp --encrypted C:\Users\x\Desktop\test\server\output\econtrol1.bmp  --decrypted C:\Users\x\Desktop\test\server\output\dcontrol1.bmp
+Original vs Encrypted: 0.007572
+Original vs Decrypted: 1.000000
+
+C:\Users\x\Desktop\test\server\evaluate>ssim --original C:\Users\x\Desktop\test\server\output\medical.bmp --encrypted C:\Users\x\Desktop\test\server\output\emedical.bmp  --decrypted C:\Users\x\Desktop\test\server\output\dmedical.bmp
+Original vs Encrypted: 0.004711
+Original vs Decrypted: 1.000000
+
+C:\Users\x\Desktop\test\server\evaluate>ssim --original C:\Users\x\Desktop\test\server\output\medical1.bmp --encrypted C:\Users\x\Desktop\test\server\output\emedical1.bmp  --decrypted C:\Users\x\Desktop\test\server\output\dmedical1.bmp
+Original vs Encrypted: 0.004233
+Original vs Decrypted: 1.000000
+
+C:\Users\x\Desktop\test\server\evaluate>ssim --original C:\Users\x\Desktop\test\server\output\natural1.bmp --encrypted C:\Users\x\Desktop\test\server\output\enatural1.bmp  --decrypted C:\Users\x\Desktop\test\server\output\dnatural1.bmp
+Original vs Encrypted: 0.008892
+Original vs Decrypted: 1.000000
+
+C:\Users\x\Desktop\test\server\evaluate>ssim --original C:\Users\x\Desktop\test\server\output\natural.bmp --encrypted C:\Users\x\Desktop\test\server\output\enatural.bmp  --decrypted C:\Users\x\Desktop\test\server\output\dnatural.bmp
+Original vs Encrypted: 0.008716
+Original vs Decrypted: 1.000000
+
+C:\Users\x\Desktop\test\server\evaluate>

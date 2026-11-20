@@ -1,0 +1,32 @@
+
+C:\Users\x\Desktop\test\server\evaluate>verify_sha256 --original C:\Users\x\Desktop\test\server\output\natural.bmp --decrypted C:\Users\x\Desktop\test\server\output\dnatural.bmp
+Original SHA-256:  4640051beba73f44a53fc4b4d0544cd0ac0c422f45eb7c4578ee588c1ca7187c
+Decrypted SHA-256: 4640051beba73f44a53fc4b4d0544cd0ac0c422f45eb7c4578ee588c1ca7187c
+Result: IDENTICAL - Lossless recovery
+
+C:\Users\x\Desktop\test\server\evaluate>verify_sha256 --original C:\Users\x\Desktop\test\server\output\natural1.bmp --decrypted C:\Users\x\Desktop\test\server\output\dnatural1.bmp
+Original SHA-256:  c9fc9a2ead4196f272152a899c1317ea13b4400a99471f9abe5d20fd4139df60
+Decrypted SHA-256: c9fc9a2ead4196f272152a899c1317ea13b4400a99471f9abe5d20fd4139df60
+Result: IDENTICAL - Lossless recovery
+
+C:\Users\x\Desktop\test\server\evaluate>verify_sha256 --original C:\Users\x\Desktop\test\server\output\medical.bmp --decrypted C:\Users\x\Desktop\test\server\output\dmedical.bmp
+Original SHA-256:  30876044b123713b2f22d7d57be4fd3a9e85bdcd9483a1370f2e40cf2c5a089b
+Decrypted SHA-256: 30876044b123713b2f22d7d57be4fd3a9e85bdcd9483a1370f2e40cf2c5a089b
+Result: IDENTICAL - Lossless recovery
+
+C:\Users\x\Desktop\test\server\evaluate>verify_sha256 --original C:\Users\x\Desktop\test\server\output\medical1.bmp --decrypted C:\Users\x\Desktop\test\server\output\dmedical1.bmp
+Original SHA-256:  933fc1de75346508578098da3345d6db0cbc579322b061c61d9fa860f7b6d68d
+Decrypted SHA-256: 933fc1de75346508578098da3345d6db0cbc579322b061c61d9fa860f7b6d68d
+Result: IDENTICAL - Lossless recovery
+
+C:\Users\x\Desktop\test\server\evaluate>verify_sha256 --original C:\Users\x\Desktop\test\server\output\control.bmp --decrypted C:\Users\x\Desktop\test\server\output\dcontrol.bmp
+Original SHA-256:  23b660124a10746833fc9fe861af907a1ae06509719c9a2699c870daadd908d6
+Decrypted SHA-256: 23b660124a10746833fc9fe861af907a1ae06509719c9a2699c870daadd908d6
+Result: IDENTICAL - Lossless recovery
+
+C:\Users\x\Desktop\test\server\evaluate>verify_sha256 --original C:\Users\x\Desktop\test\server\output\control1.bmp --decrypted C:\Users\x\Desktop\test\server\output\dcontrol1.bmp
+Original SHA-256:  345727c33e498fc87afb188d4bdcb411864d11bf1e5b00651731dda78a66a9e6
+Decrypted SHA-256: 345727c33e498fc87afb188d4bdcb411864d11bf1e5b00651731dda78a66a9e6
+Result: IDENTICAL - Lossless recovery
+
+C:\Users\x\Desktop\test\server\evaluate>
