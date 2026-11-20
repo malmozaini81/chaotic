@@ -5,13 +5,49 @@ This repository provides supporting experimental evidence for the research paper
 
 The research presents a distributed image encryption system using independent Wi-Fi-connected ESP32-S3 microcontrollers. A Python-based master coordinates image processing across multiple workers using segments of a single continuous chaotic sequence. ECDSA authentication and TLS 1.3 mutual authentication secure device communication.
 
-## Repository Contents
+## Repository Structure
 
-- **Python Evaluation Scripts:** Tools used to calculate and verify experimental metrics.
-- **Test Images:** Original, encrypted, and decrypted BMP images.
-- **Experimental Results:** Verification outputs covering correctness, image statistics, and cryptographic attack tests.
-- **Execution Logs:** Evidence of distributed processing, fault tolerance, and task reassignment.
-- **Supporting Tables and Figures:** Additional experimental evidence referenced in the paper.
+### [Appendices](./Appendices)
+Screenshots and supporting evidence for the research paper:
+- SHA-256, SSIM, and MSE verification
+- Shannon entropy and NPCR evaluation
+- Adjacent-pixel correlation
+- Known-Plaintext Attack (KPA)
+- Chosen-Plaintext Attack (CPA)
+- Worker malfunction and task reassignment
+- TLS 1.3 communication security
+
+### [attacks](./attacks)
+Python script for testing cross-image keystream recovery:
+- `kpa.py` — Used for KPA and CPA experiments.
+
+### [evaluations](./evaluations)
+Python scripts for image evaluation:
+- `verify_sha256.py` — Lossless recovery verification
+- `ssim.py` — Structural similarity
+- `mse.py` — Mean squared error
+- `psnr.py` — Peak signal-to-noise ratio
+- `entropy.py` — Shannon entropy
+- `histogram.py` — Pixel intensity distribution
+- `npcr.py` — Number of Pixels Change Rate
+- `uaci.py` — Unified Average Changing Intensity
+- `correlation.py` — Adjacent-pixel correlation
+
+### [output](./output)
+Experimental images and recorded evaluation results:
+- Original BMP images
+- Single-pixel-modified BMP images
+- Encrypted and decrypted BMP images
+- Chosen plaintext images (black, white, and one-white-pixel)
+- Correlation plots and image samples
+- Text files containing actual experimental outputs:
+  - `sha256.txt`
+  - `ssim.txt`
+  - `mse.txt`
+  - `entropy.txt`
+  - `correlation.txt`
+  - `pncr-uaci.txt`
+  - `kpa.txt`
 
 ## Purpose
 
