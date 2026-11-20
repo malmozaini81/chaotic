@@ -1,9 +1,8 @@
-r"""
+"""
 example: 
 C:\Users\x\Desktop\test\server\attacks>python kpa.py --plain1 "C:\Users\x\Desktop\test\server\images\originals\original.bmp" --cipher1 "C:\Users\x\Desktop\test\server\images\eoriginal-bif.bmp" --plain2 "C:\Users\x\Desktop\test\server\images\originals\original1.bmp" --cipher2 "C:\Users\x\Desktop\test\server\images\eoriginal1-bif.bmp"
 Recovered bytes: 3.1250%
 Exact recovery: False
-
 """
 
 
