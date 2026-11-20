@@ -1,0 +1,28 @@
+C:\Users\x\Desktop\test\server\evaluate>correlation --original C:\Users\x\Desktop\test\server\output\natural.bmp --encrypted C:\Users\x\Desktop\test\server\output\enatural.bmp
+Original - Horizontal: R=0.9502, G=0.9491, B=0.9716
+Original - Vertical: R=0.9149, G=0.9152, B=0.9536
+Original - Diagonal: R=0.9018, G=0.9029, B=0.9461
+Encrypted - Horizontal: R=-0.0062, G=0.0005, B=-0.0173
+Encrypted - Vertical: R=0.0035, G=0.0425, B=-0.0051
+Encrypted - Diagonal: R=-0.0046, G=0.0185, B=0.0223
+Saved: correlation.png
+
+C:\Users\x\Desktop\test\server\evaluate>correlation --original C:\Users\x\Desktop\test\server\output\medical.bmp --encrypted C:\Users\x\Desktop\test\server\output\emedical.bmp
+Original - Horizontal: R=0.9899, G=0.9928, B=0.9935
+Original - Vertical: R=0.9886, G=0.9918, B=0.9927
+Original - Diagonal: R=0.9780, G=0.9840, B=0.9856
+Encrypted - Horizontal: R=0.0077, G=0.0169, B=-0.0040
+Encrypted - Vertical: R=-0.0111, G=0.0041, B=-0.0207
+Encrypted - Diagonal: R=-0.0057, G=0.0317, B=-0.0065
+Saved: correlation.png
+
+C:\Users\x\Desktop\test\server\evaluate>correlation --original C:\Users\x\Desktop\test\server\output\control.bmp --encrypted C:\Users\x\Desktop\test\server\output\econtrol.bmp
+Original - Horizontal: R=0.9771, G=0.9771, B=0.9771
+Original - Vertical: R=0.9720, G=0.9720, B=0.9720
+Original - Diagonal: R=0.9533, G=0.9533, B=0.9533
+Encrypted - Horizontal: R=-0.0034, G=0.0198, B=0.0319
+Encrypted - Vertical: R=-0.0218, G=-0.0143, B=0.0067
+Encrypted - Diagonal: R=0.0057, G=-0.0076, B=-0.0064
+Saved: correlation.png
+
+C:\Users\x\Desktop\test\server\evaluate>
