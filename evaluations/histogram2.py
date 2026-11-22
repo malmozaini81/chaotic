@@ -76,8 +76,8 @@ def main():
     ax.text(0.98, 0.97,
             f'{"Original":<10}: {e1:.6f}\n'
             f'{"Encrypted":<10}: {e2:.6f}',
-            transform=ax.transAxes, ha='right', va='top', fontsize=20)#,
-            #bbox=dict(facecolor='white', edgecolor='#CCCCCC', boxstyle='round,pad=0.3'))
+            transform=ax.transAxes, ha='right', va='top', fontsize=20,
+            bbox=dict(facecolor='white', edgecolor='#CCCCCC', boxstyle='round,pad=0.3'))
 
     fig.subplots_adjust(left=0.12, right=0.98, bottom=0.19, top=0.97)
     ax.tick_params(axis="y", labelleft=False)
