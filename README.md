@@ -41,6 +41,7 @@ Experimental images and recorded evaluation results:
 - Chosen plaintext images (black, white, and one-white-pixel)
 - Correlation plots and image samples
 - Text files containing actual experimental outputs:
+- Encryption and decryption images demonstrating different worker counts and block sizes.
   - `sha256.txt`
   - `ssim.txt`
   - `mse.txt`
