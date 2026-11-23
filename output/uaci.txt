@@ -1,0 +1,35 @@
+C:\Users\x\Desktop\test\server\evaluate>uaci.py --encrypted C:\Users\x\Desktop\test\server\images\eoriginal-bif.bmp --encrypted1 C:\Users\x\Desktop\test\server\images\eoriginal1-bif.bmp
+UACI: 26.121873%
+
+C:\Users\x\Desktop\test\server\evaluate>uaci.py --encrypted C:\Users\x\Desktop\test\server\images\eoriginal-swp.bmp --encrypted1 C:\Users\x\Desktop\test\server\images\eoriginal1-swp.bmp
+UACI: 26.121201%
+
+C:\Users\x\Desktop\test\server\evaluate>uaci.py --encrypted C:\Users\x\Desktop\test\server\images\eoriginal-sub.bmp --encrypted1 C:\Users\x\Desktop\test\server\images\eoriginal1-sub.bmp
+UACI: 26.123411%
+
+C:\Users\x\Desktop\test\server\evaluate>uaci.py --encrypted C:\Users\x\Desktop\test\server\images\eoriginal-rot.bmp --encrypted1 C:\Users\x\Desktop\test\server\images\eoriginal1-rot.bmp
+UACI: 26.135971%
+
+C:\Users\x\Desktop\test\server\evaluate>uaci.py --encrypted C:\Users\x\Desktop\test\server\images\econtrol-rot.bmp --encrypted1 C:\Users\x\Desktop\test\server\images\econtrol1-rot.bmp
+UACI: 32.309083%
+
+C:\Users\x\Desktop\test\server\evaluate>uaci.py --encrypted C:\Users\x\Desktop\test\server\images\econtrol-bif.bmp --encrypted1 C:\Users\x\Desktop\test\server\images\econtrol1-bif.bmp
+UACI: 32.316066%
+
+C:\Users\x\Desktop\test\server\evaluate>uaci.py --encrypted C:\Users\x\Desktop\test\server\images\econtrol-swp.bmp --encrypted1 C:\Users\x\Desktop\test\server\images\econtrol1-swp.bmp
+UACI: 32.277143%
+
+C:\Users\x\Desktop\test\server\evaluate>uaci.py --encrypted C:\Users\x\Desktop\test\server\images\econtrol-sub.bmp --encrypted1 C:\Users\x\Desktop\test\server\images\econtrol1-sub.bmp
+UACI: 32.293682%
+
+C:\Users\x\Desktop\test\server\evaluate>uaci.py --encrypted C:\Users\x\Desktop\test\server\images\emedical-sub.bmp --encrypted1 C:\Users\x\Desktop\test\server\images\emedical1-sub.bmp
+UACI: 34.313611%
+
+C:\Users\x\Desktop\test\server\evaluate>uaci.py --encrypted C:\Users\x\Desktop\test\server\images\emedical-swp.bmp --encrypted1 C:\Users\x\Desktop\test\server\images\emedical1-swp.bmp
+UACI: 34.303383%
+
+C:\Users\x\Desktop\test\server\evaluate>uaci.py --encrypted C:\Users\x\Desktop\test\server\images\emedical-bif.bmp --encrypted1 C:\Users\x\Desktop\test\server\images\emedical1-bif.bmp
+UACI: 34.299563%
+
+C:\Users\x\Desktop\test\server\evaluate>uaci.py --encrypted C:\Users\x\Desktop\test\server\images\emedical-rot.bmp --encrypted1 C:\Users\x\Desktop\test\server\images\emedical1-rot.bmp
+UACI: 34.307695%
