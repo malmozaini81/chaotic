@@ -1,28 +1,72 @@
-C:\Users\x\Desktop\test\server\evaluate>correlation --original C:\Users\x\Desktop\test\server\output\natural.bmp --encrypted C:\Users\x\Desktop\test\server\output\enatural.bmp
-Original - Horizontal: R=0.9502, G=0.9491, B=0.9716
-Original - Vertical: R=0.9149, G=0.9152, B=0.9536
-Original - Diagonal: R=0.9018, G=0.9029, B=0.9461
-Encrypted - Horizontal: R=-0.0062, G=0.0005, B=-0.0173
-Encrypted - Vertical: R=0.0035, G=0.0425, B=-0.0051
-Encrypted - Diagonal: R=-0.0046, G=0.0185, B=0.0223
-Saved: correlation.png
+C:\Users\x\Desktop\test\server\evaluate>correlation2.py --original C:\Users\x\Desktop\test\server\output\natural.bmp --encrypted C:\Users\x\Desktop\test\server\output\enatural.bmp --output C:\Users\x\Desktop\test\server\output\corr-natural.png
+Original - Horizontal: R=0.9488, G=0.9484, B=0.9708
+Original - Vertical: R=0.9151, G=0.9154, B=0.9523
+Original - Diagonal: R=0.8983, G=0.8993, B=0.9438
+Encrypted - Horizontal: R=-0.0002, G=-0.0003, B=-0.0001
+Encrypted - Vertical: R=-0.0019, G=-0.0010, B=-0.0009
+Encrypted - Diagonal: R=-0.0005, G=0.0004, B=-0.0009
 
-C:\Users\x\Desktop\test\server\evaluate>correlation --original C:\Users\x\Desktop\test\server\output\medical.bmp --encrypted C:\Users\x\Desktop\test\server\output\emedical.bmp
-Original - Horizontal: R=0.9899, G=0.9928, B=0.9935
-Original - Vertical: R=0.9886, G=0.9918, B=0.9927
-Original - Diagonal: R=0.9780, G=0.9840, B=0.9856
-Encrypted - Horizontal: R=0.0077, G=0.0169, B=-0.0040
-Encrypted - Vertical: R=-0.0111, G=0.0041, B=-0.0207
-Encrypted - Diagonal: R=-0.0057, G=0.0317, B=-0.0065
-Saved: correlation.png
+Encrypted Mean Absolute RGB Correlation
+  Horizontal      Vertical      Diagonal
+----------------------------------------
+      0.0002        0.0012        0.0006
 
-C:\Users\x\Desktop\test\server\evaluate>correlation --original C:\Users\x\Desktop\test\server\output\control.bmp --encrypted C:\Users\x\Desktop\test\server\output\econtrol.bmp
-Original - Horizontal: R=0.9771, G=0.9771, B=0.9771
-Original - Vertical: R=0.9720, G=0.9720, B=0.9720
-Original - Diagonal: R=0.9533, G=0.9533, B=0.9533
-Encrypted - Horizontal: R=-0.0034, G=0.0198, B=0.0319
-Encrypted - Vertical: R=-0.0218, G=-0.0143, B=0.0067
-Encrypted - Diagonal: R=0.0057, G=-0.0076, B=-0.0064
-Saved: correlation.png
+
+Sampled Grayscale Pearson Correlation (Figure Legend)
+-------------------------------------------------------
+Original   Horizontal: 0.942920
+Original   Vertical  : 0.910350
+Original   Diagonal  : 0.906242
+Encrypted  Horizontal: 0.018565
+Encrypted  Vertical  : 0.022943
+Encrypted  Diagonal  : 0.012707
+
+C:\Users\x\Desktop\test\server\evaluate>
+C:\Users\x\Desktop\test\server\evaluate>correlation2.py --original C:\Users\x\Desktop\test\server\output\medical.bmp --encrypted C:\Users\x\Desktop\test\server\output\emedical.bmp --output C:\Users\x\Desktop\test\server\output\corr-medical.png
+Original - Horizontal: R=0.9894, G=0.9923, B=0.9931
+Original - Vertical: R=0.9877, G=0.9912, B=0.9921
+Original - Diagonal: R=0.9768, G=0.9831, B=0.9848
+Encrypted - Horizontal: R=0.0019, G=-0.0002, B=-0.0009
+Encrypted - Vertical: R=-0.0009, G=-0.0014, B=0.0011
+Encrypted - Diagonal: R=-0.0026, G=0.0031, B=-0.0025
+
+Encrypted Mean Absolute RGB Correlation
+  Horizontal      Vertical      Diagonal
+----------------------------------------
+      0.0010        0.0011        0.0027
+
+
+Sampled Grayscale Pearson Correlation (Figure Legend)
+-------------------------------------------------------
+Original   Horizontal: 0.991489
+Original   Vertical  : 0.991874
+Original   Diagonal  : 0.976801
+Encrypted  Horizontal: 0.018377
+Encrypted  Vertical  : 0.030012
+Encrypted  Diagonal  : 0.011688
+
+C:\Users\x\Desktop\test\server\evaluate>
+C:\Users\x\Desktop\test\server\evaluate>correlation2.py --original C:\Users\x\Desktop\test\server\output\control.bmp --encrypted C:\Users\x\Desktop\test\server\output\econtrol.bmp --output C:\Users\x\Desktop\test\server\output\corr-control.png
+Original - Horizontal: R=0.9770, G=0.9770, B=0.9770
+Original - Vertical: R=0.9714, G=0.9714, B=0.9714
+Original - Diagonal: R=0.9517, G=0.9517, B=0.9517
+Encrypted - Horizontal: R=0.0027, G=0.0009, B=0.0003
+Encrypted - Vertical: R=-0.0001, G=-0.0030, B=-0.0021
+Encrypted - Diagonal: R=-0.0009, G=0.0011, B=0.0007
+
+Encrypted Mean Absolute RGB Correlation
+  Horizontal      Vertical      Diagonal
+----------------------------------------
+      0.0013        0.0017        0.0009
+
+
+Sampled Grayscale Pearson Correlation (Figure Legend)
+-------------------------------------------------------
+Original   Horizontal: 0.978881
+Original   Vertical  : 0.972573
+Original   Diagonal  : 0.954696
+Encrypted  Horizontal: -0.009977
+Encrypted  Vertical  : -0.001512
+Encrypted  Diagonal  : 0.039372
 
 C:\Users\x\Desktop\test\server\evaluate>
