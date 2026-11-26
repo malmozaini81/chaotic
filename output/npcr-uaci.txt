@@ -1,0 +1,19 @@
+C:\Users\x\Desktop\test\server\evaluate>npcr --image1 C:\Users\x\Desktop\test\server\output\econtrol.bmp --image2 C:\Users\x\Desktop\test\server\output\econtrol1.bmp
+NPCR: 99.608103%
+
+C:\Users\x\Desktop\test\server\evaluate>npcr --image1 C:\Users\x\Desktop\test\server\output\emedical.bmp --image2 C:\Users\x\Desktop\test\server\output\emedical1.bmp
+NPCR: 99.608681%
+
+C:\Users\x\Desktop\test\server\evaluate>npcr --image1 C:\Users\x\Desktop\test\server\output\enatural.bmp --image2 C:\Users\x\Desktop\test\server\output\enatural1.bmp
+NPCR: 99.608461%
+
+C:\Users\x\Desktop\test\server\evaluate>uaci --encrypted C:\Users\x\Desktop\test\server\output\enatural.bmp --encrypted1 C:\Users\x\Desktop\test\server\output\enatural1.bmp
+UACI: 33.452800%
+
+C:\Users\x\Desktop\test\server\evaluate>uaci --encrypted C:\Users\x\Desktop\test\server\output\emedical.bmp --encrypted1 C:\Users\x\Desktop\test\server\output\emedical1.bmp
+UACI: 33.480041%
+
+C:\Users\x\Desktop\test\server\evaluate>uaci --encrypted C:\Users\x\Desktop\test\server\output\econtrol.bmp --encrypted1 C:\Users\x\Desktop\test\server\output\econtrol1.bmp
+UACI: 33.438645%
+
+C:\Users\x\Desktop\test\server\evaluate>

@@ -1,0 +1,40 @@
+C:\Users\x\Desktop\test\server\evaluate>ssim --original C:\Users\x\Desktop\test\server\output\natural.bmp --encrypt C:\Users\x\Desktop\test\server\output\enatural.bmp --decrypt C:\Users\x\Desktop\test\server\output\dnatural.bmp
+Original vs Encrypted: 0.008846
+Original vs Decrypted: 1.000000
+
+C:\Users\x\Desktop\test\server\evaluate>ssim --original C:\Users\x\Desktop\test\server\output\medical.bmp --encrypt C:\Users\x\Desktop\test\server\output\emedical.bmp --decrypt C:\Users\x\Desktop\test\server\output\dmedical.bmp
+Original vs Encrypted: 0.004492
+Original vs Decrypted: 1.000000
+
+C:\Users\x\Desktop\test\server\evaluate>ssim --original C:\Users\x\Desktop\test\server\output\control.bmp --encrypt C:\Users\x\Desktop\test\server\output\econtrol.bmp --decrypt C:\Users\x\Desktop\test\server\output\dcontrol.bmp
+Original vs Encrypted: 0.007725
+Original vs Decrypted: 1.000000
+
+C:\Users\x\Desktop\test\server\evaluate>mse --original C:\Users\x\Desktop\test\server\output\natural.bmp --encrypt C:\Users\x\Desktop\test\server\output\enatural.bmp --decrypt C:\Users\x\Desktop\test\server\output\dnatural.bmp
+Original vs Encrypted: 10037.044062
+Original vs Decrypted: 0.000000
+
+C:\Users\x\Desktop\test\server\evaluate>mse --original C:\Users\x\Desktop\test\server\output\control.bmp --encrypt C:\Users\x\Desktop\test\server\output\econtrol.bmp --decrypt C:\Users\x\Desktop\test\server\output\dcontrol.bmp
+Original vs Encrypted: 10352.192118
+Original vs Decrypted: 0.000000
+
+C:\Users\x\Desktop\test\server\evaluate>mse --original C:\Users\x\Desktop\test\server\output\medical.bmp --encrypt C:\Users\x\Desktop\test\server\output\emedical.bmp --decrypt C:\Users\x\Desktop\test\server\output\dmedical.bmp
+Original vs Encrypted: 15270.034766
+Original vs Decrypted: 0.000000
+
+C:\Users\x\Desktop\test\server\evaluate>verify_sha256 --original C:\Users\x\Desktop\test\server\output\medical.bmp --decrypt C:\Users\x\Desktop\test\server\output\dmedical.bmp
+Original SHA-256:  30876044b123713b2f22d7d57be4fd3a9e85bdcd9483a1370f2e40cf2c5a089b
+Decrypted SHA-256: 30876044b123713b2f22d7d57be4fd3a9e85bdcd9483a1370f2e40cf2c5a089b
+Result: IDENTICAL - Lossless recovery
+
+C:\Users\x\Desktop\test\server\evaluate>verify_sha256 --original C:\Users\x\Desktop\test\server\output\control.bmp --decrypt C:\Users\x\Desktop\test\server\output\dcontrol.bmp
+Original SHA-256:  23b660124a10746833fc9fe861af907a1ae06509719c9a2699c870daadd908d6
+Decrypted SHA-256: 23b660124a10746833fc9fe861af907a1ae06509719c9a2699c870daadd908d6
+Result: IDENTICAL - Lossless recovery
+
+C:\Users\x\Desktop\test\server\evaluate>verify_sha256 --original C:\Users\x\Desktop\test\server\output\natural.bmp --decrypt C:\Users\x\Desktop\test\server\output\dnatural.bmp
+Original SHA-256:  4640051beba73f44a53fc4b4d0544cd0ac0c422f45eb7c4578ee588c1ca7187c
+Decrypted SHA-256: 4640051beba73f44a53fc4b4d0544cd0ac0c422f45eb7c4578ee588c1ca7187c
+Result: IDENTICAL - Lossless recovery
+
+C:\Users\x\Desktop\test\server\evaluate>

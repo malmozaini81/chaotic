@@ -1,0 +1,18 @@
+C:\Users\x\Desktop\test\server\evaluate>histogram2.py --original C:\Users\x\Desktop\test\server\output\natural.bmp --encrypted C:\Users\x\Desktop\test\server\output\enatural.bmp --output C:\Users\x\Desktop\test\server\output\histo-natural.png
+Original entropy:  7.860255 bits/byte
+Encrypted entropy: 7.999943 bits/byte
+Saved: C:\Users\x\Desktop\test\server\output\histo-natural.png
+
+C:\Users\x\Desktop\test\server\evaluate>
+C:\Users\x\Desktop\test\server\evaluate>histogram2.py --original C:\Users\x\Desktop\test\server\output\medical.bmp --encrypted C:\Users\x\Desktop\test\server\output\emedical.bmp --output C:\Users\x\Desktop\test\server\output\histo-medical.png
+Original entropy:  6.698941 bits/byte
+Encrypted entropy: 7.999854 bits/byte
+Saved: C:\Users\x\Desktop\test\server\output\histo-medical.png
+
+C:\Users\x\Desktop\test\server\evaluate>
+C:\Users\x\Desktop\test\server\evaluate>histogram2.py --original C:\Users\x\Desktop\test\server\output\control.bmp --encrypted C:\Users\x\Desktop\test\server\output\econtrol.bmp --output C:\Users\x\Desktop\test\server\output\histo-control.png
+Original entropy:  7.772199 bits/byte
+Encrypted entropy: 7.999780 bits/byte
+Saved: C:\Users\x\Desktop\test\server\output\histo-control.png
+
+C:\Users\x\Desktop\test\server\evaluate>
